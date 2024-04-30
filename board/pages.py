@@ -14,6 +14,7 @@ def about():
 
 @bp.route("/create",methods=("GET","POST"))
 def create():
+    print('heyyy')
     return render_template("posts/create.html")
 
 @bp.route("/posts")
